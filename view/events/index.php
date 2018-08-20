@@ -56,4 +56,26 @@
 
     </div>
   </section>
+
+  <section class="recommended">
+    <h2 class="recommended-title">Onze toppers</h2>
+    <div class="event-cards">
+
+      <article class="event-card">
+        <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+        <p class="event-card-title">Het kasteel blauwhuis</p>
+      </article>
+
+      <article class="event-card">
+        <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+        <p class="event-card-title">Het kasteel blauwhuis</p>
+      </article>
+
+      <article class="event-card">
+        <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+        <p class="event-card-title">Het kasteel blauwhuis</p>
+      </article>
+
+    </div>
+  </section>
 </main>

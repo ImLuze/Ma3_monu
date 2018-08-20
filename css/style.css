@@ -60,6 +60,7 @@ h3 {
   font-size: 1.8rem;
   width: 19.2rem;
   height: 2rem;
+  background-color: transparent;
 }
 
 .input::placeholder {
@@ -245,7 +246,6 @@ h3 {
   height: 12rem;
   position: absolute;
 
-  background-color: red;
   box-shadow: 0px 4px 50px 0px rgba(34,76,178,.5);
   bottom: 0;
   left: 2.6%;
@@ -317,4 +317,80 @@ h3 {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/news_3.jpeg);
   background-blend-mode: color-burn;
   background-size: cover;
+}
+
+.recommended {
+  margin-top: 14.4rem;
+}
+
+.recommended-title {
+  margin-bottom: 6.4rem;
+}
+
+.event-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-card {
+  width: 40rem;
+  height: 64.8rem;
+  position: relative;
+  margin-bottom: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-card::after {
+  content: "";
+  display: inline-block;
+  width: 38.2rem;
+  height: 32.4rem;
+  position: absolute;
+
+  box-shadow: 0px 4px 50px 0px rgba(34,76,178,.5);
+  bottom: 0;
+  left: 2.3%;
+  z-index: -3;
+}
+
+.event-card-img {
+  width: inherit;
+  height: inherit;
+  border: .8rem solid white;
+  object-fit: cover;
+  display: block;
+  z-index: -2;
+  position: relative;
+}
+
+.event-card-img {
+  width: 40rem;
+  height: 64.8rem;
+  display: inline-block;
+
+  background-blend-mode: color-burn;
+}
+
+.event-card-img::after {
+  content: "";
+  background: url(../assets/img/bg.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  opacity: .3;
+  width: 38.4rem;
+  height: 63.2rem;
+  display: block;
+}
+
+.event-card-title {
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  font-size: 1.8rem;
+  margin-top: -5.6rem;
+  width: 10.9rem;
+  text-align: center;
 }
