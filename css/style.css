@@ -1,0 +1,46 @@
+@import 'reset.css';
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 96rem;
+  margin-top: 5.6rem;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  color: #5471BB;
+  text-decoration: none;
+  font-family: Poppins;
+  font-weight: lighter;
+  margin-right: 7.2rem;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+}
+
+.input {
+  border: none;
+  border-bottom: .2rem solid #5471BB;
+  outline: none;
+  color: #AAB7DC;
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  width: 19.2rem;
+  height: 2rem;
+}
+
+.input::placeholder {
+  color: #AAB7DC;
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 1.8rem;
+}
