@@ -14,6 +14,13 @@ h1 {
   line-height: 1.167;
 }
 
+h2 {
+  color: #5471BB;
+  font-size: 4.8rem;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -57,7 +64,7 @@ h1 {
 
 .home-header {
   min-width: 100vw;
-  min-height: 100rem;
+  min-height: 120rem;
   background-image: url(../assets/svg/church.svg);
   background-repeat: no-repeat;
   background-position: right top;
@@ -73,7 +80,7 @@ h1 {
   position: absolute;
   left: 0;
   width: 100rem;
-  height: 100rem;
+  height: 115rem;
   background-image: url(../assets/svg/main_cloud.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -98,13 +105,29 @@ h1 {
   margin-top: 3.2rem;
 }
 
-.home-header-intro {
+.home-intro {
   color: #5471BB;
   font-size: 1.8rem;
   font-family: Helvetica;
   line-height: 1.618;
   width: 48rem;
   margin-top: 9.6rem;
+}
+
+.home-header-intro {
+  margin-top: 9.6rem;
+}
+
+.home-tripel-intro {
+  margin-top: 4.8rem;
+}
+
+.home-header-cta {
+  margin-top: 4.8rem;
+}
+
+.home-tripel-cta {
+  margin-top: 8.8rem;
 }
 
 .cta-primary {
@@ -119,7 +142,6 @@ h1 {
   font-family: Poppins;
   text-align: center;
   padding-top: 1.4rem;
-  margin-top: 4.8rem;
 }
 
 .cta-primary::after {
@@ -139,4 +161,18 @@ h1 {
   width: 20.8rem;
   background-color: #224CB2;
   transition: width .5s ease, background-color .5s ease;
+}
+
+.tripel {
+  width: 85vw;
+  margin-top: -10rem;
+
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.tripel-img {
+  margin-top: -10rem;
 }
