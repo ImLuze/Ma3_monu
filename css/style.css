@@ -19,6 +19,8 @@ h1 {
   justify-content: space-between;
   width: 85vw;
   margin-top: 5.6rem;
+  position: fixed;
+  z-index: 2;
 }
 
 .nav-link {
@@ -85,7 +87,7 @@ h1 {
 }
 
 .home-header-title {
-  margin-top: 8.6rem;
+  margin-top: 16.6rem;
 }
 
 .home-header-date {
