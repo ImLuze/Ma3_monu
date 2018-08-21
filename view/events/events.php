@@ -35,7 +35,7 @@
 <main>
   <section class="event-cards">
 
-    <a href="/index.php?page=detail&id=1">
+    <a href="/index.php?page=detail&id=14">
       <article class="event-card">
         <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
         <p class="event-card-title">Het kasteel blauwhuis</p>
