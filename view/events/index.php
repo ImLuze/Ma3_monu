@@ -12,7 +12,7 @@
     <img class="tripel-img" src="../assets/svg/beer.svg" alt="Tripel bier" width="271" height="436">
     <div class="tripel-copy">
       <h2 class="tripel-title">Feest mee met een lekkere Tripel</h2>
-      <p class="home-intro home-tripel-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="home-intro home-tripel-intro">Tripel 30, dat is het feestbier ter gelegenheid van 30 jaar Open Monumentendag. Laat je bezoekers meegenieten van dit monumentale bier. (En bestel er ook eentje voor jezelf…)</p>
       <a class="cta-primary home-tripel-cta" href="#">Bestel uw Tripel</a>
     </div>
   </section>
