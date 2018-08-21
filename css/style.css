@@ -12,6 +12,10 @@ main {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   color: #5471BB;
   font-size: 7.2rem;
@@ -179,6 +183,15 @@ h3 {
   width: 20.8rem;
   background-color: #224CB2;
   transition: width .5s ease, background-color .5s ease;
+}
+
+.cta-primary-white {
+  background-color: white;
+  color: #5471BB;
+}
+
+.cta-primary:hover::after {
+  background-color: #224CB2;
 }
 
 .cta-secondary {
@@ -435,6 +448,122 @@ h3 {
 
 .filter .input {
   width: inherit;
+}
+
+.detail-header {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14.4rem;
+}
+
+.slider {
+  width: 42.5vw;
+  height: 68.8rem;
+}
+
+.slider-img {
+  width: 42.5vw;
+  height: 68.8rem;
+  object-fit: cover;
+}
+
+.slider-gradient, .slider-gradient::after {
+  width: 42.5vw;
+  height: 68.8rem;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  width: 42.5vw;
+  position: absolute;
+  margin-top: -2.8rem;
+}
+
+.slider-controls-button {
+  width: 6.4rem;
+  height: .4rem;
+  border: none;
+  margin: .4rem;
+  outline: none;
+  background-color: white;
+  opacity: .3;
+  transition: opacity .3s ease;
+}
+
+.slider-controls-button:hover, .slider-controls-button-active {
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.detail-header-intro {
+  width: calc(42.5vw - 4rem);
+  margin-top: 2.4rem;
+}
+
+.detail-header-sub {
+  width: 48rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.detail-main {
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.detail-left {
+  margin-top: 8rem;
+  width: 42.5vw;
+}
+
+.detail-right {
+  width: calc(42.5vw - 4rem);
+  margin-top: 10.4rem;
+}
+
+.detail-address {
+  background-color: #5471BB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.detail-address-title {
+  color: white;
+  text-align: center;
+  padding: 2.4rem;
+}
+
+.detail-address-copy {
+  color: white;
+  font-size: 1.8rem;
+  font-family: Helvetica;
+  line-height: 1.618;
+  text-align: center;
+}
+
+.cta-address {
+  margin: 3.2rem 0 2.4rem 0;
+}
+
+.copy {
+  color: #5471BB;
+  font-size: 1.8rem;
+  font-family: Helvetica;
+  line-height: 1.618;
+  margin-top: 4rem;
+}
+
+.detail-intro {
+  margin-top: 5.6rem;
+  margin-bottom: 17.6rem;
 }
 
 @media only screen and (max-width: 850px) {

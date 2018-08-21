@@ -15,6 +15,13 @@ class EventsController extends Controller {
 
   }
 
+  public function detail() {
+    $id = $_GET['id'];
+
+    $event = $this->eventDAO->selectById($id);
+    $this->set('event', $event);
+  }
+
   public function events() {
     $conditions = array();
 
