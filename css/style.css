@@ -394,3 +394,28 @@ h3 {
   width: 10.9rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .home-header-title {
+    font-size: 4.8rem;
+    margin-top: 25rem;
+  }
+
+  .home-header-date {
+    font-size: 2.4rem;
+  }
+
+  .home-header {
+    background-image: none;
+  }
+
+  .home-intro {
+    width: 85vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-header-title {
+    font-size: 3.6rem;
+  }
+}

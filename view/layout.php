@@ -13,7 +13,7 @@
     <nav class="nav">
       <div class="nav-left">
         <a class="nav-link" href="/index.php">Home</a>
-        <a class="nav-link" href="index.php?page=events">Monumenten</a>
+        <a class="nav-link" href="/index.php?page=events">Monumenten</a>
         <a class="nav-link" href="#">Nieuws</a>
         <a class="nav-link" href="#">Over ons</a>
       </div>

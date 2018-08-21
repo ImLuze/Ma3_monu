@@ -1,4 +1,4 @@
-<section>
+<!-- <section>
   <h1>Events</h1>
   <?php foreach($events as $event): ?>
     <article>
@@ -18,4 +18,4 @@
       </dl>
     </article>
   <? endforeach;?>
-</section>
+</section> -->

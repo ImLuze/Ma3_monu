@@ -12,6 +12,10 @@ class EventsController extends Controller {
   }
 
   public function index() {
+
+  }
+
+  public function events() {
     $conditions = array();
 
     //example: search on title
