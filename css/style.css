@@ -337,6 +337,9 @@ h3 {
 .event-cards {
   display: flex;
   justify-content: space-between;
+  width: 85vw;
+
+  flex-wrap: wrap;
 }
 
 .event-card {
@@ -373,9 +376,6 @@ h3 {
   display: block;
   z-index: -2;
   position: relative;
-}
-
-.event-card-img {
   /* width: 40rem; */
   width: 27.5vw;
   height: 64.8rem;
@@ -406,6 +406,33 @@ h3 {
   text-align: center;
 }
 
+.filter-container {
+  height: 70vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../assets/svg/small_cloud.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 15.7rem;
+  width: 27.2rem;
+}
+
+.filter .input {
+  width: inherit;
+}
+
 @media only screen and (max-width: 850px) {
   h2 {
     font-size: 3.6rem;
@@ -424,7 +451,6 @@ h3 {
   }
 
   .event-cards {
-    flex-wrap: wrap;
     justify-content: space-around;
   }
 
