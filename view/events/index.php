@@ -24,8 +24,8 @@
       <article class="news-card">
         <div class="gradient news-gradient-1">
         </div>
-        <div>
-          <h3>15 Architecturale toppers</h3>
+        <div class="news-copy">
+          <h3 class="news-title">15 Architecturale toppers</h3>
           <p class="news-date">16.08.18</p>
           <p class="home-intro news-intro">Na een geslaagde samenwerking met het VAi, het Vlaams Architectuurinstituut, in 2017...</p>
           <a class="cta-secondary news-cta" href="#">LEES MEER</a>
@@ -35,8 +35,8 @@
       <article class="news-card">
         <div class="gradient news-gradient-2">
         </div>
-        <div>
-          <h3>100 jaar oorlog op 8 plekken</h3>
+        <div class="news-copy">
+          <h3 class="news-title">100 jaar oorlog op 8 plekken</h3>
           <p class="news-date">12.08.18</p>
           <p class="home-intro news-intro">Op deze 8 plaatsen in Vlaanderen word je op zondag 9 september even stil...</p>
           <a class="cta-secondary news-cta" href="#">LEES MEER</a>
@@ -46,8 +46,8 @@
       <article class="news-card">
         <div class="gradient news-gradient-3">
         </div>
-        <div>
-          <h3>11 kastelen om in weg te dromen</h3>
+        <div class="news-copy">
+          <h3 class="news-title">11 kastelen om in weg te dromen</h3>
           <p class="news-date">09.08.18</p>
           <p class="home-intro news-intro">Bezoek één van deze 11 indrukwekkende kastelen en droom weg...</p>
           <a class="cta-secondary news-cta" href="#">LEES MEER</a>
