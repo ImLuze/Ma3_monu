@@ -49,7 +49,11 @@ h3 {
   text-decoration: none;
   font-family: Poppins;
   font-weight: lighter;
-  margin-right: 7.2rem;
+  margin-right: 5.2vw;
+}
+
+.tab-link {
+  display: none;
 }
 
 .nav-link:hover, .nav-link-active {
@@ -461,6 +465,10 @@ h3 {
   .event-card-img::after, .event-card::after {
     width: calc(41vw - 1.6rem);
   }
+
+  .nav-link {
+    margin-right: 3vw;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -493,6 +501,38 @@ h3 {
 
   .news-intro {
     width: 60vw;
+  }
+
+  .nav {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+  }
+
+  .nav-link, .nav-right {
+    display: none;
+  }
+
+  .nav-left {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .tab-link {
+    visibility: visible;
+    width: 19.9vw;
+    height: 5rem;
+    background-color: #5471BB;
+    transition: background-color .3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-link:hover, .tab-link-active {
+    background-color: #224CB2;
+    transition: background-color .3s ease-out;
   }
 }
 
