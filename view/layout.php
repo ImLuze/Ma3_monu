@@ -12,8 +12,13 @@
 
     <nav class="nav">
       <div class="nav-left">
-        <a class="nav-link" href="/index.php">Home</a>
-        <a class="nav-link" href="/index.php?page=events">Monumenten</a>
+        <?php if($_GET['page'] !== 'events' && $_GET['page'] !== 'detail'): ?>
+          <a class="nav-link nav-link-active" href="/index.php">Home</a>
+          <a class="nav-link" href="/index.php?page=events">Monumenten</a>
+        <?php else: ?>
+          <a class="nav-link" href="/index.php">Home</a>
+          <a class="nav-link nav-link-active" href="/index.php?page=events">Monumenten</a>
+        <?php endif; ?>
         <a class="nav-link" href="#">Nieuws</a>
         <a class="nav-link" href="#">Over ons</a>
       </div>

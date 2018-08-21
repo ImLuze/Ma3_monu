@@ -52,7 +52,7 @@ h3 {
   margin-right: 7.2rem;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link-active {
   font-weight: 600;
 }
 
