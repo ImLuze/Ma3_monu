@@ -473,6 +473,24 @@ h3 {
   height: 68.8rem;
 }
 
+.slider-gradient {
+  width: 42.5vw;
+  height: 68.8rem;
+  display: inline-block;
+  margin-right: 2.4rem;
+}
+
+.slider-gradient::after {
+  content: "";
+  background: url(../assets/img/bg.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  opacity: .3;
+  width: 42.5vw;
+  height: 68.8rem;
+  display: block;
+}
+
 .slider-controls {
   display: flex;
   justify-content: center;
@@ -507,6 +525,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 .detail-main {
@@ -564,6 +583,17 @@ h3 {
 .detail-intro {
   margin-top: 5.6rem;
   margin-bottom: 17.6rem;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .half-intro {
+    width: 40vw;
+  }
+
+  .detail-header-sub {
+    width: 40vw;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -663,10 +693,37 @@ h3 {
     background-color: #224CB2;
     transition: background-color .3s ease-out;
   }
+
+  .detail-header {
+    flex-direction: column;
+    margin-top: 5rem;
+  }
+
+  .detail-header-intro-top {
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+  }
+
+  .detail-header-title {
+    width: 45vw;
+  }
+
+  .detail-header-sub {
+    flex-direction: column;
+  }
+
+  .slider, .slider-container, .slider-img, .slider-gradient, .slider-gradient::after, .slider-controls, .half-intro, .detail-left, .detail-right {
+    width: 85vw;
+  }
+
+  .detail-main {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  .home-header-title {
+  h1 {
     font-size: 4.8rem;
     margin-top: 25rem;
   }
@@ -679,7 +736,7 @@ h3 {
     background-image: none;
   }
 
-  .home-intro {
+  .home-intro, .detail-header-intro {
     width: 85vw;
   }
 
@@ -706,10 +763,26 @@ h3 {
   .event-card-img::after, .event-card::after {
     width: calc(85vw - 1.6rem);
   }
+
+  .detail-header-intro-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detail-header-title {
+    width: 85vw;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .detail-header-sub {
+    align-items: center;
+    height: 12rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-  .home-header-title {
+  h1 {
     font-size: 3.6rem;
   }
 }
