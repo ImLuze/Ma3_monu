@@ -3,10 +3,13 @@
     <input class="input" type="text" name="name" value="" placeholder="Naam monument">
     <input class="input" type="text" name="place" value="" placeholder="Gemeente">
     <select class="input" name="tag">
-      <option value="no tag">Activiteit of type</option>
-      <option value="tag">Tag</option>
-      <option value="other tag">Other Tag</option>
+      <option value="">Activiteit of type</option>
+      <?php foreach($tags as $tag): ?>
+        <?php print_r($tag);?>
+        <option value="<?php echo $tag['tag']; ?>"><?php echo $tag['tag']; ?></option>
+      <?php endforeach;?>
     </select>
+    <input class="cta-primary" type="submit" name="submit" value="Zoek">
   </form>
 </header>
 

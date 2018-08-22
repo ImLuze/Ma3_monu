@@ -70,6 +70,13 @@ class EventDAO extends DAO {
     return $stmt->fetch(PDO::FETCH_ASSOC);
   }
 
+  public function getTags() {
+    $sql = "SELECT `tag` FROM `ma3_monu_tags`";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
   private function _getEventIdsFromResult(&$result) {
     $eventIds = array();
     foreach($result as &$row) {

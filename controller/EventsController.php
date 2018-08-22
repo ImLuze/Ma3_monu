@@ -25,6 +25,32 @@ class EventsController extends Controller {
   public function events() {
     $conditions = array();
 
+    print_r($_POST);
+
+    if(!empty($_POST['name'])) {
+      $conditions[] = array(
+        'field' => 'title',
+        'comparator' => 'like',
+        'value' => $_POST['name']
+      );
+    }
+
+    if(!empty($_POST['place'])) {
+      $conditions[] = array(
+        'field' => 'city',
+        'comparator' => 'like',
+        'value' => $_POST['place']
+      );
+    }
+
+    if(!empty($_POST['tag'])) {
+      $conditions[] = array(
+        'field' => 'tag',
+        'comparator' => '=',
+        'value' => $_POST['tag']
+      );
+    }
+
     //example: search on title
      /* $conditions[] = array(
        'field' => 'title',
@@ -48,6 +74,9 @@ class EventsController extends Controller {
 
     $events = $this->eventDAO->search($conditions);
     $this->set('events', $events);
+
+    $tags = $this->eventDAO->getTags();
+    $this->set('tags', $tags);
   }
 
 }
