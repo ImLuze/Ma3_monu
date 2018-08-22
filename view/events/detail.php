@@ -1,10 +1,32 @@
+<?php $directory = "./assets/img/events/" . $event['id'] . "/";?>
+<?php $files = scandir($directory); ?>
+<?php $firstFile = $directory . $files[2]; ?>
+<?php $fileType = substr($firstFile, -3); ?>
+<?php if($fileType !== "jpg"): ?>
+  <?php $firstFile = $directory . $files[3];?>
+<?php endif; ?>
+
+<?php
+  $images = [];
+
+  for($i = 0; $i < count($files); $i++) {
+    if(substr($files[$i], -3) === 'jpg' ) {
+      $images[] = $files[$i];
+    }
+  }
+?>
+
 <header class="detail-header">
   <section class="slider">
     <div class="slider-container">
-      <div class="slider-img slider-gradient" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+      <?php foreach($images as $image):?>
+        <div class="slider-img slider-gradient slide" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(<?php echo $directory . $image ?>); background-blend-mode: color-burn; background-size: cover;"></div>
+      <?php endforeach; ?>
     </div>
     <div class="slider-controls">
-      <button class="slider-controls-button slider-controls-button-active"></button>
+      <?php foreach($images as $image):?>
+        <button class="slider-controls-button"></button>
+      <?php endforeach;?>
     </div>
   </section>
   <section class="detail-header-intro">

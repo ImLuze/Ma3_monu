@@ -61,24 +61,24 @@
     <h2 class="recommended-title">Onze toppers</h2>
     <div class="event-cards">
 
-      <a href="#">
+      <a href="/index.php?page=detail&id=16">
         <article class="event-card">
           <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
-          <p class="event-card-title">Het kasteel blauwhuis</p>
+          <p class="event-card-title">Casino-Kursaal</p>
         </article>
       </a>
 
-      <a href="#">
+      <a href="/index.php?page=detail&id=10">
         <article class="event-card">
-          <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
-          <p class="event-card-title">Het kasteel blauwhuis</p>
+          <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/10/10698669_1488700924722410_7459691755015303791_n.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+          <p class="event-card-title">Brouwerij Roman</p>
         </article>
       </a>
 
-      <a href="#">
+      <a href="/index.php?page=detail&id=1">
         <article class="event-card">
-          <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/CAK/c72146d8-005f-11e8-8ba7-02b7b76bf47f_0.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
-          <p class="event-card-title">Het kasteel blauwhuis</p>
+          <div class="event-card-img" style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(237, 167, 198, 1) 100%), url(../assets/img/events/1/15418124165_c98cd7c365_b.jpg); background-blend-mode: color-burn; background-size: cover;"></div>
+          <p class="event-card-title">Paviljoen De Notelaer</p>
         </article>
       </a>
 

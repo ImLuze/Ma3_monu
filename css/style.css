@@ -460,6 +460,12 @@ h3 {
 .slider {
   width: 42.5vw;
   height: 68.8rem;
+  overflow-x: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform .6s cubic-bezier(0.64, 0.04, 0.35, 1);
 }
 
 .slider-img {
@@ -474,10 +480,7 @@ h3 {
 }
 
 .slider-gradient {
-  width: 42.5vw;
-  height: 68.8rem;
   display: inline-block;
-  margin-right: 2.4rem;
 }
 
 .slider-gradient::after {
@@ -486,8 +489,6 @@ h3 {
   background-size: cover;
   background-blend-mode: soft-light;
   opacity: .3;
-  width: 42.5vw;
-  height: 68.8rem;
   display: block;
 }
 
@@ -534,6 +535,20 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.detail-main::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100rem;
+  background-image: url(../assets/svg/main_cloud.svg);
+  transform: scaleX(-1);
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+  margin-top: 10rem;
+  z-index: -1;
 }
 
 .detail-left {
@@ -784,5 +799,9 @@ h3 {
 @media only screen and (max-width: 400px) {
   h1 {
     font-size: 3.6rem;
+  }
+
+  .slider, .slider-container, .slider-img, .slider-gradient, .slider-gradient::after {
+    height: 35rem;
   }
 }
