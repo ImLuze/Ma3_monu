@@ -33,11 +33,11 @@ class EventsController extends Controller {
      ); */
 
      //example: search on activiteiten
-      $conditions[] = array(
-       'field' => 'activiteiten',
-       'comparator' => 'like',
-       'value' => 'rondleidingen'
-     );
+     //  $conditions[] = array(
+     //   'field' => 'activiteiten',
+     //   'comparator' => 'like',
+     //   'value' => 'rondleidingen'
+     // );
 
     //example: search on tag name
      /* $conditions[] = array(
