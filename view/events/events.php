@@ -5,7 +5,6 @@
     <select class="input" name="tag">
       <option value="">Activiteit of type</option>
       <?php foreach($tags as $tag): ?>
-        <?php print_r($tag);?>
         <option value="<?php echo $tag['tag']; ?>"><?php echo $tag['tag']; ?></option>
       <?php endforeach;?>
     </select>

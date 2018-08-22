@@ -25,8 +25,6 @@ class EventsController extends Controller {
   public function events() {
     $conditions = array();
 
-    print_r($_POST);
-
     if(!empty($_POST['name'])) {
       $conditions[] = array(
         'field' => 'title',
